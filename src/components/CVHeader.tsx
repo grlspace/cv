@@ -18,14 +18,6 @@ export const CVHeader = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 items-center">
-            <Button
-              variant="secondary"
-              size="sm"
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-            >
-              <Mail className="w-4 h-4 mr-2" />
-              glworkshop8@gmail.com
-            </Button>
             
             <Button
               variant="secondary"
@@ -41,8 +33,11 @@ export const CVHeader = () => {
                 size="sm"
                 variant="ghost"
                 className="text-primary-foreground hover:bg-primary-foreground/20"
+                asChild
               >
-                <Linkedin className="w-4 h-4" />
+                <a href="https://www.linkedin.com/in/gladyssl/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </Button>
               <Button
                 size="sm"

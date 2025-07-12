@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/one-page-persona-glimpse/',
+  base: '/cv/',
   server: {
     host: "::",
     port: 8080,

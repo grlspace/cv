@@ -1,7 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
+  "homepage": "https://grlspace.github.io/cv",
   "private": true,
-  "homepage": "https://grlspace.github.io/one-page-persona-glimpse",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
