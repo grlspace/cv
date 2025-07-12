@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# Gladys Lee - Personal Portfolio
 
-## Project info
+A modern, responsive personal portfolio website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/1251fa82-f1b9-4b3b-924f-981e0e35c7cb
+## 🚀 Features
 
-## How can I edit this code?
+- **Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- **Modern UI** - Clean and professional design with smooth animations
+- **Fast Performance** - Optimized with Vite for lightning-fast loading
+- **SEO Friendly** - Proper meta tags and structured content
+- **Accessible** - Built with accessibility best practices
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages
+- **Icons**: Lucide React
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1251fa82-f1b9-4b3b-924f-981e0e35c7cb) and start prompting.
+## 📁 Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── CVHeader.tsx    # Header section
+│   ├── ExperienceSection.tsx
+│   ├── SkillsSection.tsx
+│   ├── EducationSection.tsx
+│   └── ContactSection.tsx
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── index.css           # Global styles
+```
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js 18+ 
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone https://github.com/grlspace/cv.git
+cd cv
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:8080](http://localhost:8080) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run deploy` - Build and deploy to GitHub Pages
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+This project is automatically deployed to GitHub Pages. The live site is available at:
 
-This project is built with:
+**https://grlspace.github.io/cv/**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Manual Deployment
 
-## How can I deploy this project?
+```bash
+npm run deploy
+```
 
-Simply open [Lovable](https://lovable.dev/projects/1251fa82-f1b9-4b3b-924f-981e0e35c7cb) and click on Share -> Publish.
+## 📝 Customization
 
-## Can I connect a custom domain to my Lovable project?
+### Personal Information
 
-Yes, you can!
+Update your personal information in the following files:
+- `src/components/CVHeader.tsx` - Name, title, contact info
+- `src/components/ExperienceSection.tsx` - Work experience
+- `src/components/SkillsSection.tsx` - Skills and technologies
+- `src/components/EducationSection.tsx` - Education background
+- `src/components/ContactSection.tsx` - Contact information
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Styling
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The project uses Tailwind CSS for styling. You can customize:
+- Colors in `src/index.css` (CSS variables)
+- Components in `src/components/ui/`
+- Global styles in `tailwind.config.ts`
+
+## 🤝 Contributing
+
+This is a personal portfolio project, but suggestions and improvements are welcome!
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+- **LinkedIn**: [Gladys Lee](https://www.linkedin.com/in/gladyssl/)
+- **Email**: glworkshop8@gmail.com
