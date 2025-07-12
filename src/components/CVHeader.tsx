@@ -7,10 +7,10 @@ export const CVHeader = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            John Doe
+            Gladys Lee
           </h1>
           <h2 className="text-xl md:text-2xl font-light mb-6 opacity-90">
-            Senior Software Engineer
+            Business Analyst & Product Manager
           </h2>
           <p className="text-lg mb-8 opacity-85 max-w-2xl">
             Passionate software engineer with 5+ years of experience building scalable web applications 
@@ -24,16 +24,7 @@ export const CVHeader = () => {
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <Mail className="w-4 h-4 mr-2" />
-              john.doe@example.com
-            </Button>
-            
-            <Button
-              variant="secondary"
-              size="sm"
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-            >
-              <Phone className="w-4 h-4 mr-2" />
-              +1 (555) 123-4567
+              glworkshop8@gmail.com
             </Button>
             
             <Button
@@ -42,7 +33,7 @@ export const CVHeader = () => {
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <MapPin className="w-4 h-4 mr-2" />
-              San Francisco, CA
+              United Kingdom
             </Button>
             
             <div className="flex gap-2 ml-4">
